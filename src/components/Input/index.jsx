@@ -1,5 +1,5 @@
 import { useState } from "react";
-import search from "../../assets/search.svg";
+import search from "../../assets/Search.svg";
 
 export const Input = ({ onSearch }) => {
 
