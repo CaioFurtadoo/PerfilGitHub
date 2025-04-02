@@ -32,3 +32,19 @@ body {
         }
     }
 }
+
+@theme {
+    --animate-opacity: opacity 5s ease-in infinite;
+    @keyframes opacity {
+        0%,
+        100% {
+            opacity: 100;
+        }
+        50% {
+            opacity: 50%;
+        }
+        25% {
+            opacity: 25%;
+        }
+    }
+}
